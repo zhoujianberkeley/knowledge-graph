@@ -11,3 +11,7 @@ bin/neo4j-admin import --nodes=import/nodes.csv --relationships=import/relations
 今天尝试把数据导入neo4j -- 一个3.7 MB的csv file竟然需要3.2小时，真的蛮惊讶的！
 
 同时尝试使用了现成的代码来做knowledge query，对兔数据库的结构/数据导入和使用有了基本的了解。
+
+# Day 3 打卡
+今天就是把昨天的代码都详细讲解了一下，但是这些代码都没有注释，感觉增加了
+大家的学习难度

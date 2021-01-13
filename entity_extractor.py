@@ -3,6 +3,7 @@
 import os
 import ahocorasick
 from sklearn.externals import joblib
+#import joblib
 import jieba
 import numpy as np
 
@@ -23,6 +24,7 @@ class EntityExtractor:
         self.tfidf_model = joblib.load(self.tfidf_path)
         self.nb_model = joblib.load(self.nb_path)
 
+        data_dir = os.path.join(cur_dir, 'DATA/')
         self.disease_path = data_dir + 'disease_vocab.txt'
         self.symptom_path = data_dir + 'symptom_vocab.txt'
         self.alias_path = data_dir + 'alias_vocab.txt'
