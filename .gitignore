@@ -133,3 +133,4 @@ dmypy.json
 .idea/misc.xml
 .idea/knowledge-graph.iml
 .idea/inspectionProfiles/profiles_settings.xml
+DATA/merge_sgns_bigram_char300.txt
